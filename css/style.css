@@ -74,9 +74,32 @@
     position: relative;
     top: 10px;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 #submit:hover {
     cursor: pointer;
     background-color: white;
+}
+
+#messageContainer {
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.socials {
+    font-size: 20px;
+}
+
+.instagram {
+    position: relative;
+    left: 1000px;
+    bottom: 400px;
+}
+
+.github {
+    position: relative;
+    left: 200px;
+    bottom: 400px;
 }
