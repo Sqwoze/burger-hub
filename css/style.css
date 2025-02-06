@@ -62,7 +62,21 @@
 
 
 .form {
-    border: 1px solid black;
-    border-radius: 10px;
     text-align: center;
+}
+
+.submit {
+    position: relative;
+    top: 10px;
+}
+
+#submit {
+    position: relative;
+    top: 10px;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: white;
 }
